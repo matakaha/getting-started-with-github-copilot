@@ -1,15 +1,15 @@
-## Review
+## レビュー
 
-_Congratulations, you've completed this exercise and learned a lot about GitHub Copilot!_
+_おめでとうございます！この演習は完了し、GitHub Copilot について多くのことを学びました。_
 
 <img src="https://octodex.github.com/images/jetpacktocat.png" alt=celebrate width=200 align=right>
 
-Here's a recap of your accomplishments:
+ここでの成果の要約 :
 
-- Set up your GitHub Codespace and environment.
-- Learned how to use Copilot inline suggestions, Chat, and Edits.
-- Used Copilot to generate commit messages and pull request summaries.
-- Learned how to request Copilot to review your code.
+- GitHub Codespacesのセットアップ
+- Copilot のインライン提案、チャット、編集の使用方法を学習しました
+- Copilot を使用してコミット メッセージとプル リクエストの概要を生成しました
+- コードのレビューを Copilot にリクエストする方法を学習しました
 
 ### What's next?
 - Check out the other [GitHub Skills exercises](https://learn.github.com/skills).
