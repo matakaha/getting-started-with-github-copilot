@@ -1,27 +1,27 @@
-# Getting Started with GitHub Copilot
+# GitHub Copilot 入門演習
 
-_Get started using GitHub Copilot in less than an hour._
+_GitHub Copilot 入門演習は１時間以内の想定でできています_
 
-## Welcome
+## ようこそ
 
-- **Who is this for**: Developers at any experience level looking to accelerate their code workflow.
-- **What you'll learn**: The different ways to interact with Copilot to explain, write, debug, and develop code.
-- **What you'll build**: You will guide Copilot to update Mergington High School's extracurricular activities website.
-- **Prerequisites**:
-  - Skills exercise: [Introduction to GitHub](https://github.com/skills/introduction-to-github)
-  - Familiarity with [VS Code](https://code.visualstudio.com/)
-  - Basic coding principles
-- **How long**: This exercise takes less than one hour to complete.
+- **想定対象者**: コードのワークフローを高速化したいと考えている、あらゆる経験レベルの開発者
+- **学習内容**: 開発のために GitHub Copilot と対話するさまざまな方法を学習（コード解説、記述、デバッグなど） 
+- **学習コンテンツ**: マージントン高校の課外活動に関するWebサイトを更新するように GitHub Copilot をガイドします
+- **前提条件**:
+  - 想定スキル: [Introduction to GitHub](https://github.com/skills/introduction-to-github)
+  - 使用ツール: [VS Code](https://code.visualstudio.com/)
+  - 基本的なコーディングスキル
+- **想定時間**: おおむね１時間程度を想定しています
 
-In this exercise, you will:
+この入門演習であなたは :
 
-1. Use a preconfigured Codespace to run VS Code in your browser.
-1. Learn different interaction options to develop with GitHub Copilot.
-1. Use Copilot to summarize and review your pull request.
+1. 事前構成されたGitHub Codespacesを使用して、ブラウザー上で VS Code を実行します
+1. GitHub Copilot を使用して開発するためのさまざまな対話オプションを学びます
+1. Use Copilot to summarize and review your pull request.GitHub Copilot を使用してプルリクエストの要約や、レビューを行います
 
-### How to start this exercise
+### この演習の始め方
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+この演習をご自身のアカウントにコピーしてください。Octocat (Mona) が **約 20 秒間**かけて最初のレッスンを準備しますので、その後**ページを更新**してください
 
 [![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public)
 
