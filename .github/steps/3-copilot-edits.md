@@ -1,52 +1,52 @@
-## Step 3: Getting work done even _faster_ with Copilot Edits
+## Step 3: Copilot Edits を使用して作業をさらに _高速化_
 
-In our previous steps, we used features of Copilot that require more hands-on guidance and they produced mostly localized results. Now, we will explore Copilot Edits, a feature that allows working more holistically on our repo.
+前のステップでは、 GitHub Copilotへの具体的な指示を出し、結果として局所的な編集結果などを得ました。今回は、リポジトリでより総合的な作業を可能にする機能である Copilot Edits について説明します。
 
-[Copilot - Edit Mode](https://code.visualstudio.com/docs/copilot/copilot-edits) is an AI-powered code editing session to make changes across **multiple files** using **natural language**, and applies the edits directly in the editor, where you can review them in-place, with the full context of the surrounding code.
+[Copilot - 編集モード](https://code.visualstudio.com/docs/copilot/copilot-edits) は、**自然言語**を使用して**複数のファイル**に変更を加える AI を活用したコード編集セッションであり、編集内容をエディターで直接適用し、周囲のコードの完全なコンテキストを使用してその場で確認できます。
 
-#### Key features
+#### 主な特徴
 
-- **Multi-file Editing**: Copilot Edits can make changes across multiple files in your workspace.
-- **Iterative Workflow**: Designed for fast iteration, allowing you to review, accept, or discard AI-generated code.
-- **In-place Edits**: Shows generated code directly in your editor, providing a code review-like flow.
-- **Working Set**: Allows you to define which files the edits should be applied to.
+- **複数ファイルの編集**: Copilot Edits はワークスペース内の複数ファイルに対して編集を加えることができます。
+- **反復的なワークフロー**: 高速な反復を目的として設計されており、AI によって生成されたコードをレビュー、承認、または破棄できます。
+- **インプレース 編集**: 生成されたコードをエディターに直接表示し、コード レビューのようなフローを提供します。
+- **作業セット**: 編集を適用するファイルを定義できます。
 
-#### How it works
+#### 仕組み
 
-1. **Set Context**: Select files to be in the working set.
-1. **Provide Instructions**: Use natural language to describe the required changes.
-1. **Review Changes**: See proposed changes in-place in your code.
-1. **Accept or Discard**: Review each suggested edit and choose which to keep.
-1. **Iterate**: If needed, provide follow-up instructions to refine the changes.
+1. **コンテキストを設定**: 作業セットに含めるファイルを選択します
+1. **指示を入力**: 必要な変更内容を自然な言葉で記述します
+1. **変更箇所のレビュー**: コード内で提案された変更を確認します
+1. **承認(Accept)または破棄(Discard)**: 各提案を確認し、採用するかどうかを選択します
+1. **反復**: 必要に応じて、追加の指示を出して変更を調整します
 
-### :keyboard: Activity: Use Copilot to add a new feature! :rocket:
+### :keyboard: Activity: Copilot を使用して新しい機能を追加する! :rocket:
 
-1. If the Copilot Chat panel is not visible, please reopen it.
+1. Copilot Chat パネルが表示されていない場合は、再度開いてください。
 
-1. At the bottom of Copilot Chat window, use the dropdown to switch to **Edit** mode.
+1. Copilot Chat ウィンドウの下部にあるドロップダウンを使用して **Edit** モードに切り替えます。
 
    <img width="350" alt="image" src="https://github.com/user-attachments/assets/646fc94a-7d60-4821-b9cf-9ec6f4fd03d7" />
 
-1. Open the files related to our webpage then drag each editor window (or file) to the chat panel, informing Copilot to use them as context.
+1. Web ページに関連するファイルを開いて、各エディタ ウィンドウ (またはファイル) をチャット パネルにドラッグし、それらをコンテキストとして使用するように Copilot に通知します。
 
    - `src/static/app.js`
    - `src/static/index.html`
    - `src/static/styles.css`
 
-   > **Tip:** You can also use the **Add Context...** button to provide other sources of context items, like a GitHub issue, the entire codebase, or the results of a terminal window.
+   > **Tip:** **コンテキストの追加** ボタンを使用して、GitHub の問題、コードベース全体、ターミナル ウィンドウの結果など、コンテキスト項目の他のソースを提供することもできます。
 
-1. Ask Copilot to update our project to display the current participants of activities. Wait a moment for the edit suggestions to arrive and be applied.
+1. Copilot にプロジェクトを更新して、アクティビティの現在の参加者を表示するように依頼します。編集提案が到着して適用されるまでしばらく待ちます。
 
    > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
-   > Hey Copilot, can you please edit the activity cards to add a participants section.
-   > It will show what participants that are already signed up for that activity as a bulleted list.
-   > Remember to make it pretty!
+   > アクティビティ カードを編集して参加者セクションを追加してください。
+   > そのアクティビティにすでにサインアップしている参加者が箇条書きリストとして表示されます。
+   > 綺麗に作成することを忘れないでください。
    > ```
 
-   - An extra icon has appeared next to the file names and open editor windows indicating they have suggested edits.
-   - A suggested edits panel has appeared in the bottom right of the editor window providing controls to jump to the recommended changes.
+   - ファイル名の横に追加のアイコンが表示され、編集が提案されていることを示すエディタ ウィンドウが開きます。
+   - エディター ウィンドウの右下に、推奨される編集パネルが表示され、推奨される変更にジャンプするためのコントロールが提供されます。
 
       <img width="200" alt="files with icons indicating they have been edited" src="https://github.com/user-attachments/assets/9c7c2e10-cd18-43c5-9947-cffd6dde0473" />
 
@@ -55,35 +55,35 @@ In our previous steps, we used features of Copilot that require more hands-on gu
    <details>
    <summary>Need help? 🤷</summary><br/>
 
-   Remember, to add the relevant files to the working set.
+   関連するファイルを作業セットに追加することを忘れないでください。
 
    ![screenshot of working set](https://github.com/user-attachments/assets/d3eadc8e-583e-4a28-9e82-be128eab843b)
 
    </details>
 
-1. Before we simply accept the changes, please check our website again and verify everything is updated as expected. Here is an example of an updated activity card. You may need to restart the app or refresh the page.
+1. 変更を単に受け入れる前に、Web サイトをもう一度チェックして、すべてが期待どおりに更新されていることを確認してください。以下は更新されたアクティビティカードの例です。アプリを再起動するか、ページを更新する必要がある場合があります。
 
    <img width="350" alt="Activity card with participant info" src="https://github.com/user-attachments/assets/c4d56187-4791-4c8e-87d7-d5ce7cdc0bee" />
 
-   > **Note:** Your activity card may look different. Copilot won't always produce the same results.
+   > **Note:** アクティビティカードの外観は異なる場合があります。 Copilot は常に同じ結果を生成するとは限りません。
 
    <details>
    <summary>Need help? 🤷</summary><br/>
-   If the website is not loading, here are some things to check.
+   Web サイトが読み込まれない場合は、次の点を確認してください。
 
-   - Restart the VS Code Debugger to make sure the latest version of the website is served.
-   - If you forgot the url, or closed the window, please review step 1.
-   - Try hard refreshing the webpage or opening in a private window so it downloads a fresh copy.
+   - VS Code デバッガーを再起動して、Web サイトの最新バージョンが提供されていることを確認します。
+   - URL を忘れた場合、またはウィンドウを閉じた場合は、Step 1 を確認してください。
+   - Web ページを何度か更新するか、プライベートウィンドウを開いて新しいコピーを開いてみてください。
 
    </details>
 
-1. Now that we have confirmed our changes are good, use the panel to cycle through each suggested edit and press **Keep** to apply the change.
+1. 変更が適切であることを確認したので、パネルを使用して提案された各編集を順に実行し、**保持** を押して変更を適用します。
 
-   > **Tip:** You can accept the changes directly, modify them, or provide additional instruction to refine them using the chat interface.
+   > **Tip:** チャット インターフェイスを使用して、変更を直接受け入れたり、変更したり、追加の指示を提供して変更を調整したりできます。
 
-1. With our new feature complete, please **commit** and **push** the changes to GitHub.
+1. 新機能が完成したら、変更を GitHub に **コミット**して**プッシュ**してください。
 
-1. Wait a moment for Mona to check your work, provide feedback, and share the final lesson. Almost done!
+1. Mona があなたの作業をチェックし、フィードバックを提供し、最後のレッスンを共有するまでしばらくお待ちください。もうすぐ完成です！
 
 1. (optional) If you would like an ungraded bonus step to briefly introduce Agent mode, **add an issue comment** asking **@professortocat** about Copilot Agent mode. 🚀
 
