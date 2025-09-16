@@ -1,6 +1,6 @@
 ## Step 4: プルリクエスト内で GitHub Copilot を使用する
 
-Congratulations! この演習 (および VS Code) のコーディングパートは終了です。今度は私たちの作業をマージする時が来ました。 :tada: 最後に、プル リクエストを高速化できる、アクセスが制限された 2 つの Copilot 機能について学びましょう
+Congratulations! この演習 (および VS Code) のコーディングパートは終了です。今度は私たちの作業をマージする時が来ました :tada: 最後に、プル リクエストを高速化できる、アクセスが制限された 2 つの Copilot 機能について学びましょう
 
 #### Copilot pull request summaries
 
