@@ -51,7 +51,9 @@ GitHub Copilot は、開発者の生産性を向上させ、ソフトウェア�
 
 1. VS Code の上部で **~~Copilot~~ Chat icon** を見つけてクリックし、Copilot Chat パネルを開きます。
 
-   <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
+   <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" /> 
+
+   <img width="147" height="50" alt="image" src="https://github.com/user-attachments/assets/5c9f8887-68f9-426d-9ad9-09066f341645" />
 
 1. GitHub Copilot を初めて使用する場合、続行するには使用条件に同意する必要があります。
 
