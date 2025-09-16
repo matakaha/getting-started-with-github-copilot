@@ -23,7 +23,7 @@ _GitHub Copilot 入門演習は１時間以内の想定でできています_
 
 この演習をご自身のアカウントにコピーしてください。Octocat (Mona) が **約 20 秒間**かけて最初のレッスンを準備しますので、その後**ページを更新**してください
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public)
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=getting-started-with-github-copilot-jp&owner=%40me&name=skills-getting-started-with-github-copilot-jp&description=Exercise:+Get+started+using+GitHub+Copilot&visibility=public)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
