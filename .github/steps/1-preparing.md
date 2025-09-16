@@ -39,7 +39,7 @@ GitHub Copilot は、開発者の生産性を向上させ、ソフトウェア�
 1. **Repository**フィールドがオリジナルではなく演習のコピーであることを確認し、緑色の **Create Codespace** ボタンをクリックします。
 
    - ✅ コピー : `/{{full_repo_name}}`
-   - ❌ オリジナル : `/skills/getting-started-with-github-copilot`
+   - ❌ オリジナル : `/matakaha/getting-started-with-github-copilot-jp`
 
 1. Visual Studio Code がブラウザーに読み込まれるまでしばらく待ちます。
 
@@ -49,7 +49,7 @@ GitHub Copilot は、開発者の生産性を向上させ、ソフトウェア�
 
    <img width="350" alt="python extension for VS Code" src="https://github.com/user-attachments/assets/3040c0f5-1658-47e2-a439-20504a384f77" />
 
-1. VS Code の上部で **Copilot icon** を見つけてクリックし、Copilot Chat パネルを開きます。
+1. VS Code の上部で **~~Copilot~~ Chat icon** を見つけてクリックし、Copilot Chat パネルを開きます。
 
    <img width="150" alt="image" src="https://github.com/user-attachments/assets/5e64db46-95cb-415d-badc-b6b8677f10c1" />
 
@@ -68,10 +68,10 @@ GitHub Copilot は、開発者の生産性を向上させ、ソフトウェア�
 
    <details>
    <summary>@workspace とは？</summary>
-   細かな点に気づかれたステキですが、今はそのまま使ってみましょう🤓 次のステップで説明します。
+   細かな点に気づかれたことはステキですが、今はそのまま使ってみましょう🤓 次のステップで説明します。
    </details>
 
-1. プロジェクトについてもう少し理解したところで、実際に実行してみましょう。左側のサイドバーで「実行とデバッグ」タブを選択し、**デバッグの開始** アイコンを押します
+1. プロジェクトについて少し理解できたところで、実際に実行してみましょう。左側のサイドバーで「実行とデバッグ」タブを選択し、**デバッグの開始** アイコンを押します
 
    <img width="300" alt="image" src="https://github.com/user-attachments/assets/50b27f2a-5eab-4827-9343-ab5bce62357e" />
 
@@ -81,7 +81,7 @@ GitHub Copilot は、開発者の生産性を向上させ、ソフトウェア�
 
    ![image](https://github.com/user-attachments/assets/92d5642e-ce99-4a66-850c-2d311a673596)
 
-### :keyboard: Activity: Use Copilot to help remember a terminal command 🙋
+### :keyboard: Activity: Copilotをターミナルコマンドで利用する🙋
 
 素晴らしい！アプリに慣れ、機能することがわかったので、いくつかのカスタマイズを行うことができるように、ブランチの開始を手伝ってもらうために copilot に依頼しましょう。
 
